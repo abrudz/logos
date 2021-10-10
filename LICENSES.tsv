@@ -5,6 +5,7 @@ ATS	GNU General Public License 3.0	https://github.com/githwxi/ATS-Xanadu/blob/ma
 Awk	GNU General Public License 3.0	http://awklang.org/
 BQN	ISC License	https://github.com/mlochbaum/BQN/blob/master/LICENSE
 Chapel	Apache License 2.0	https://chapel-lang.org/license.html
+Chicken	BSD-3-Clause	https://www.call-cc.org/
 Clojure	Eclipse Public License 1.0	https://github.com/clojure/clojure/blob/master/readme.txt
 CoffeeScript	MIT	https://github.com/jashkenas/coffeescript/blob/master/LICENSE
 Coq	LGPL-2.1 License	https://github.com/coq/coq/blob/master/LICENSE
@@ -32,6 +33,7 @@ J	Copyright 1990-2019 Jsoftware Inc	https://github.com/jsoftware/jsource/blob/ma
 Java	Copyright 2021 Oracle	https://www.oracle.com/a/ocom/docs/java-licensing-logo-guidelines-1908204.pdf
 JS	MIT	https://github.com/voodootikigod/logo.js/blob/master/LICENSE
 Julia	BY-NC-SA 4.0	https://github.com/JuliaLang/julia-logo-graphics/blob/master/LICENSE.md
+Kawa	CC BY 3.0	https://commons.wikimedia.org/wiki/File:Kawa-logo.svg
 Kotlin	Apache 2.0 license	https://github.com/JetBrains/logos/blob/master/LICENSE.txt
 Lisp	CC BY 4.0	https://common-lisp.net/
 Lua	Copyright 1998 Lua.org	https://www.lua.org/images/
@@ -49,6 +51,7 @@ PicoLisp	MIT	https://github.com/picolisp/picolisp/blob/dev/COPYING
 Prolog	BSD-2-Clause	https://www.swi-prolog.org/license.html
 PureScript	CC BY-SA 4.0	https://github.com/purescript/logo#purescript-logo
 Python	Apache License 2.0	https://github.com/python/pythonineducation.org/blob/master/LICENSE
+QB64	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:QB64-1-4-logo-hd-transparency.svg
 R	CC-BY-SA 4.0	https://www.r-project.org/logo/
 Racket	GNU Lesser General Public License	https://www.gnu.org/licenses/lgpl-3.0.html
 Raku	Artistic License 2.0	https://github.com/Raku/mu/blob/master/misc/camelia.txt

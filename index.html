@@ -1,16 +1,62 @@
 <html>
 <head>
 <title>Programming Language Logos</title>
+<link id="f" rel="icon" type="image/x-icon" href="">
 <style>
-body{width:1520;margin:0;text-align:center}
-a{height:128px;width:128px;display:inline-block;text-align:center;padding:10px;vertical-align:middle}
+body{--size:128px;margin:0;text-align:center}
+a{height:var(--size);width:var(--size);display:inline-block;vertical-align:middle;margin:10px;position:relative}
 s{display:none}
-img{max-width:100%;height:100%}
-[title=Groovy]{height:unset;padding-top:30.304px}
+img{width:100%;max-height:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+[title=Elixir]{width:unset}
+p{padding-top:1em}
 </style>
 </head>
 <body>
-<s>280</s><a href="https://github.com/Raku/mu/blob/master/misc/camelia.txt"><img src="Raku.svg" alt="Raku logo" title="Raku"></a>
+<p><select id="pros" onchange="f.href=apl.src=pros.value" autofocus>
+<option value="">Select logo proposal</option>
+<option value="https://aplwiki.com/images/2/27/50yearsapple.png">50 Years Apple</option>
+<option value="https://aplwiki.com/images/f/f1/Angular_Textured_Apple.png">Angular Textured Apple</option>
+<option value="https://aplwiki.com/images/6/6e/Circles.png">Circles</option>
+<option value="https://aplwiki.com/images/f/f1/APL_logo_light.png">Cube Apple</option>
+<option value="https://aplwiki.com/images/c/c4/Jokerman_logo.jpg">Jokerman</option>
+<option value="https://aplwiki.com/images/b/b5/Nested_bitmaps_logo.png">Nested Bitmaps</option>
+<option value="https://aplwiki.com/images/a/a6/Script_logo.png">Script apple</option>
+<option value="https://aplwiki.com/images/0/0d/Script_logo_filled.png">Script apple filled</option>
+<option value="https://aplwiki.com/images/1/18/APL_matrix_logo.png">APL Matrix (Lamp Rho Downstile)</option>
+<option value="https://aplwiki.com/images/4/49/Matrix_logo.png">APL Matrix (blank)</option>
+<option value="https://aplwiki.com/images/4/4e/APL_matrix_logo_Clarendon.png">APL Matrix (Clarendon)</option>
+<option value="https://aplwiki.com/images/8/85/APL_matrix_logo_Plex.png">APL Matrix (Plex)</option>
+<option value="https://aplwiki.com/images/4/41/OOQQ_APL_bright_green_proposal.jpg">APL Rotated Array (light)</option>
+<option value="https://aplwiki.com/images/3/3e/APL_dots_proposal.jpg">APL Rotated Array (dark)</option>
+<option value="https://aplwiki.com/images/f/f9/APL_Wiki_Touch_Square.png">APL Wiki (black blank)</option>
+<option value="https://aplwiki.com/images/b/b5/APL_LOGO_Black.png">APL Wiki (black Lamp Rho Downstile)</option>
+<option value="https://aplwiki.com/images/b/bb/APL_LOGO_2aac50ff.png">APL Wiki (green Lamp Rho Downstile)</option>
+<option value="https://aplwiki.com/images/c/cb/Apl_arrayness.png">APL Array</option>
+<option value="https://aplwiki.com/images/2/23/APL_Germany.jpg">APL Germany</option>
+<option value="https://aplwiki.com/images/f/f9/DirectionAndMagnitude.png">Direction and Magnitude</option>
+<option value="https://aplwiki.com/images/8/85/Display_matrix.png">Display matrix (white)</option>
+<option value="https://aplwiki.com/images/e/e9/Display_matrix_green.png">Display matrix (green)</option>
+<option value="https://aplwiki.com/images/e/e6/Ligature_Original.jpg">Ligature (original)</option>
+<option value="https://aplwiki.com/images/0/01/Ligature_Separated.jpg">Ligatures (separated)</option>
+<option value="https://aplwiki.com/images/7/7f/Ligature_Separated_Aligned.jpg">Ligatures (separated aligned)</option>
+<option value="hhttps://aplwiki.com/images/4/44/Ligature_AP.jpg">Ligatures (2-part)</option>
+<option value="https://aplwiki.com/images/e/e5/Apl_logo1.PNG">Modern (blank)</option>
+<option value="https://aplwiki.com/images/2/2d/Apl_logo2.png">Modern (star)</option>
+<option value="https://aplwiki.com/images/f/fa/Parallel_Lines.png">Parallel Lines</option>
+<option value="https://aplwiki.com/images/3/39/Plain_Ellipse.png">Plain Ellipse</option>
+<option value="https://aplwiki.com/images/0/09/APL_Bronze960White.png">APL Shape</option>
+<option value="https://aplwiki.com/images/9/99/AplBox.png">Letters From the Cube (original)</option>
+<option value="https://aplwiki.com/images/b/b5/AplBoxGreenW.png">Letters From the Cube (voxels filled)</option>
+<option value="https://aplwiki.com/images/4/42/AplBoxGreenW_nofill.png">Letters From the Cube (voxels filled)</option>
+<option value="https://aplwiki.com/images/d/d3/3D_Lamp_Rho_Downstile.png">3D Lamp Rho Downstile</option>
+<option value="https://aplwiki.com/images/3/34/LampBox.png">Lamp Box</option>
+<option value="https://aplwiki.com/images/0/01/LampRhoDownstile.png">Lamp Rho Downstile</option>
+<option value="https://aplwiki.com/images/5/56/LampRhoDownstileBox.png">Lamp Rho Downstile Box (rounded)</option>
+<option value="https://aplwiki.com/images/7/79/LampRhoDownstileBlocky.png">Lamp Rho Downstile Box (brutalist)</option>
+<option value="https://aplwiki.com/images/d/dd/LampRhoDownstileBox16Zoom.png">Lamp Rho Downstile Box (pixels)</option>
+<option value="https://aplwiki.com/images/5/51/QuadAPLAlt.png">Quad APL (extra line)</option>
+<option value="https://aplwiki.com/images/a/a4/QuadAPL.png">Quad APL (original)</option>
+</select> or <input id="u" oninput="f.href=apl.src=u.value" placeholder="paste URL"/> to change favicon and logo below.</p>
 <s>280</s><a href="https://elixir-lang.org/trademarks"><img src="Elixir.png" alt="Elixir logo" title="Elixir"></a>
 <s>279</s><a href="https://github.com/JetBrains/logos/blob/master/LICENSE.txt"><img src="Kotlin.svg" alt="Kotlin logo" title="Kotlin"></a>
 <s>271</s><a href="https://commons.wikimedia.org/wiki/File:Fortran_logo.svg"><img src="Fortran.svg" alt="Fortran logo" title="Fortran"></a>
@@ -24,22 +70,29 @@ img{max-width:100%;height:100%}
 <s>236</s><a href="https://www.php.net/download-logos.php"><img src="PHP.svg" alt="PHP logo" title="PHP"></a>
 <s>228</s><a href="https://commons.wikimedia.org/wiki/File:QB64-1-4-logo-hd-transparency.svg"><img src="QB64.svg" alt="QB sixty-four logo" title="QB64"></a>
 <s>223</s><a href="https://www.perlfoundation.org/trademarks.html"><img src="Perl.svg" alt="Perl logo" title="Perl"></a>
+<s>223</s><a href="https://github.com/granule-project/granule-project.github.io/blob/master/LICENSE.md"><img src="Granule.svg" alt="Granule logo" title="Granule"></a>
+<s>215</s><a href="https://github.com/vlang/v-logo/blob/master/LICENSE"><img src="V.svg" alt="V logo" title="V"></a>
 <s>213</s><a href="https://www.r-project.org/logo/"><img src="R.svg" alt="R logo" title="R"></a>
 <s>213</s><a href="https://fantom-lang.org/branding"><img src="Fantom.svg" alt="Fantom logo" title="Fantom"></a>
+<s>212</s><a href="https://github.com/AmokHuginnsson/huginn/blob/master/LICENSE.md"><img src="Huginn.svg" alt="Huginn logo" title="Huginn"></a>
 <s>211</s><a href="https://github.com/microsoft/TypeScript-Website/blob/v2/LICENSE"><img src="TypeScript.svg" alt="TypeScript logo" title="TypeScript"></a>
 <s>209</s><a href="https://isocpp.org/home/terms-of-use"><img src="CPlusPlus.svg" alt="C Plus Plus logo" title="C++"></a>
 <s>208</s><a href="https://commons.wikimedia.org/wiki/File:Kawa-logo.svg"><img src="Kawa.svg" alt="Kawa logo" title="Kawa"></a>
+<s>207</s><a href="https://github.com/hylang/hy/blob/master/LICENSE"><img src="Hy.svg" alt="Hy logo" title="Hy"></a>
+<s>206</s><a href="https://github.com/odin-lang/Odin/blob/master/LICENSE"><img src="Odin.svg" alt="Odin logo" title="Odin"></a>
 <s>202</s><a href="https://www.sas.com/content/dam/SAS/documents/legal-employee-services/legal/trademarklist.pdf"><img src="SAS.svg" alt="SAS logo" title="SAS"></a>
 <s>202</s><a href="https://commons.wikimedia.org/wiki/File:Pharo_Logo_v3.0.svg"><img src="Pharo.svg" alt="Pharo logo" title="Pharo"></a>
 <s>202</s><a href="https://commons.wikimedia.org/wiki/File:Dart_programming_language_logo.svg"><img src="Dart.svg" alt="Dart logo" title="Dart"></a>
 <s>201</s><a href="https://www.maplesoft.com/images2015/resources/Maple2015_LogoGuidlines.pdf"><img src="Maple.jpg" alt="Maple logo" title="Maple"></a>
 <s>198</s><a href="https://github.com/groovy/artwork/blob/master/LICENSE"><img src="Groovy.png" alt="Groovy logo" title="Groovy"></a>
 <s>196</s><a href="https://foundation.fsharp.org/logo"><img src="FSharp.svg" alt="F Sharp logo" title="F#"></a>
+<s>193</s><a href="https://www.cryptol.net/community.html"><img src="Cryptol.png" alt="Cryptol logo" title="Cryptol"></a>
 <s>192</s><a href="https://github.com/jsoftware/jsource/blob/master/license.txt"><img src="J.png" alt="J logo" title="J"></a>
 <s>192</s><a href="https://go.dev/blog/go-brand"><img src="Go.svg" alt="Go logo" title="Go"></a>
 <s>172</s><a href="https://github.com/mlochbaum/BQN/blob/master/LICENSE"><img src="BQN.svg" alt="BQN logo" title="BQN"></a>
 <s>156</s><a href="https://www.oracle.com/a/ocom/docs/java-licensing-logo-guidelines-1908204.pdf"><img src="Java.svg" alt="Java logo" title="Java"></a>
 <s>154</s><a href="https://github.com/clojure/clojure/blob/master/readme.txt"><img src="Clojure.svg" alt="Clojure logo" title="Clojure"></a>
+<s>136</s><a href="https://apl.wiki/APL_logo"><img id="apl" src="" alt="APL logo" title="APL"></a>
 <s>127</s><a href="https://github.com/elm/package.elm-lang.org/blob/master/LICENSE"><img src="Elm.svg" alt="Elm logo" title="Elm"></a>
 <s>127</s><a href="https://chapel-lang.org/license.html"><img src="Chapel.svg" alt="Chapel logo" title="Chapel"></a>
 <s>094</s><a href="https://commons.wikimedia.org/w/index.php?curid=27288125"><img src="Octave.svg" alt="Octave logo" title="Octave"></a>
@@ -48,18 +101,20 @@ img{max-width:100%;height:100%}
 <s>050</s><a href="https://shakti.com/download/license"><img src="Shakti.svg" alt="Shakti logo" title="Shakti"></a>
 <s>047</s><a href="https://github.com/nim-lang/assets/tree/master/#licensing"><img src="Nim.svg" alt="Nim logo" title="Nim"></a>
 <s>040</s><a href="https://github.com/githwxi/ATS-Xanadu/blob/master/LICENSE"><img src="ATS.svg" alt="ATS logo" title="ATS"></a>
+<s>038</s><a href="https://ceylon-lang.org/"><img src="Ceylon.png" alt="Ceylon logo" title="Ceylon"></a>
 <s>037</s><a href="https://github.com/ziglang/logo#official-zig-project-logo"><img src="Zig.svg" alt="Zig logo" title="Zig"></a>
 <s>036</s><a href="https://github.com/coq/coq/blob/master/LICENSE"><img src="Coq.svg" alt="Coq logo" title="Coq"></a>
+<s>033</s><a href="https://github.com/OpenEuphoria/euphoria/blob/master/License.txt"><img src="Euphoria.png" alt="Euphoria logo" title="Euphoria"></a>
 <s>032</s><a href="https://github.com/facebook/hhvm/blob/master/hphp/hack/LICENSE"><img src="Hack.svg" alt="Hack logo" title="Hack"></a>
 <s>032</s><a href="https://www.call-cc.org/"><img src="Chicken.svg" alt="Chicken logo" title="Chicken"></a>
 <s>031</s><a href="https://github.com/ocaml/ocaml-logo/blob/master/UNLICENSE.md"><img src="OCaml.svg" alt="OCaml logo" title="OCaml"></a>
 <s>030</s><a href="https://haxe.org/foundation/branding.html"><img src="Haxe.svg" alt="Haxe logo" title="Haxe"></a>
-<s>020</s><a href="https://github.com/picolisp/picolisp/blob/dev/COPYING"><img src="PicoLisp.svg" alt="PicoLisp logo" title="PicoLisp"></a>
-<s>014</s><a href="https://github.com/JuliaLang/julia-logo-graphics/blob/master/LICENSE.md"><img src="Julia.svg" alt="Julia logo" title="Julia"></a>
+<s>016</s><a href="https://github.com/senselogic/PHOENIX/blob/master/LICENSE.md"><img src="Phoenix.png" alt="Phoenix logo" title="Phoenix"></a>
 <s>012</s><a href="https://uk.mathworks.com/company/aboutus/policies_statements/trademarks.html"><img src="MatLab.svg" alt="MatLab logo" title="MatLab"></a>
 <s>008</s><a href="http://www.demailly.com/tcl/about/logos.html"><img src="Tcl.svg" alt="Tcl logo" title="Tcl"></a>
 <s>008</s><a href="https://developer.apple.com/swift/resources/"><img src="Swift.svg" alt="Swift logo" title="Swift"></a>
 <s>008</s><a href="https://www.swi-prolog.org/license.html"><img src="Prolog.png" alt="Prolog logo" title="Prolog"></a>
+<s>007</s><a href="https://github.com/reasonml/reason/blob/master/LICENSE.txt"><img src="Reason.svg" alt="Reason logo" title="Reason"></a>
 <s>005</s><a href="https://company.wolfram.com/press-center/language/"><img src="Wolfram.svg" alt="Wolfram logo" title="Wolfram"></a>
 <s>005</s><a href="https://www.ruby-lang.org/en/about/logo/"><img src="Ruby.svg" alt="Ruby logo" title="Ruby"></a>
 <s>005</s><a href="https://github.com/red/red/blob/master/BSL-License.txt"><img src="Red.svg" alt="Red logo" title="Red"></a>
@@ -67,18 +122,25 @@ img{max-width:100%;height:100%}
 <s>001</s><a href="https://github.com/scala/scala-lang/blob/main/license.md"><img src="Scala.svg" alt="Scala logo" title="Scala"></a>
 <s>001</s><a href="https://github.com/dlang/dlang.org/blob/master/LICENSE.txt"><img src="D.svg" alt="D logo" title="D"></a>
 <s>355</s><a href="https://www.embarcadero.com/news/logo"><img src="Delphi.png" alt="Delphi logo" title="Delphi"></a>
-<s>345</s><a href="https://github.com/FStarLang/FStar/blob/master/LICENSE"><img src="FStar.svg" alt="F Star logo" title="F*"></a>
 <s>343</s><a href="https://www.erlang.org/about"><img src="Erlang.svg" alt="Erlang logo" title="Erlang"></a>
+<s>335</s><a href="https://github.com/brownplt/pyret-lang/blob/horizon/LICENSE"><img src="Pyret.png" alt="Pyret logo" title="Pyret"></a>
 <s>332</s><a href="https://www.gnu.org/licenses/lgpl-3.0.html"><img src="Racket.svg" alt="Racket logo" title="Racket"></a>
-<s>000</s><a href="https://commons.wikimedia.org/wiki/File:Squeak.svg"><img src="Squeak.svg" alt="Squeak logo" title="Squeak"></a>
+<s>345</s><a href="https://github.com/FStarLang/FStar/blob/master/LICENSE"><img src="FStar.svg" alt="F Star logo" title="F*"></a>
 <s>000</s><a href="https://www.rust-lang.org/policies/media-guide"><img src="Rust.svg" alt="Rust logo" title="Rust"></a>
 <s>000</s><a href="https://commons.wikimedia.org/wiki/File:Oberon_programming_language_logo.svg"><img src="Oberon.svg" alt="Oberon logo" title="Oberon"></a>
+<s>000</s><a href="https://github.com/Mathics3/mathics-core/blob/master/COPYING.txt"><img src="Mathics.svg" alt="Mathics logo" title="Mathics"></a>
 <s>000</s><a href="https://common-lisp.net/"><img src="Lisp.svg" alt="Lisp logo" title="Lisp"></a>
+<s>000</s><a href="https://github.com/koka-lang/koka/blob/master/LICENSE"><img src="Koka.svg" alt="Koka logo" title="Koka"></a>
 <s>000</s><a href="https://github.com/EiffelSoftware/EiffelStudio/blob/main/gpl.txt"><img src="Eiffel.svg" alt="Eiffel logo" title="Eiffel"></a>
 <s>000</s><a href="https://github.com/crystal-lang/crystal/blob/master/LICENSE"><img src="Crystal.svg" alt="Crystal logo" title="Crystal"></a>
 <s>000</s><a href="https://github.com/jashkenas/coffeescript/blob/master/LICENSE"><img src="CoffeeScript.svg" alt="CoffeeScript logo" title="CoffeeScript"></a>
-<s>000</s><a href="http://awklang.org/"><img src="Awk.svg" alt="Awk logo" title="Awk"></a>
-<s>000</s><a href="https://github.com/agda/agda/blob/master/LICENSE"><img src="Agda.svg" alt="Agda logo" title="Agda"></a>
 <s>240</s><a href="https://github.com/purescript/logo#purescript-logo"><img src="PureScript.svg" alt="PureScript logo" title="PureScript"></a>
+<s>000</s><a href="http://awklang.org/"><img src="Awk.svg" alt="Awk logo" title="Awk"></a>
+<s>000</s><a href="https://github.com/egel-lang/egel/blob/master/LICENSE.md"><img src="Egel.svg" alt="Egel logo" title="Egel"></a>
+<s>000</s><a href="https://github.com/agda/agda/blob/master/LICENSE"><img src="Agda.svg" alt="Agda logo" title="Agda"></a>
+<s>000</s><a href="https://commons.wikimedia.org/wiki/File:Squeak.svg"><img src="Squeak.svg" alt="Squeak logo" title="Squeak"></a>
+<s>280</s><a href="https://github.com/Raku/mu/blob/master/misc/camelia.txt"><img src="Raku.svg" alt="Raku logo" title="Raku"></a>
+<s>020</s><a href="https://github.com/picolisp/picolisp/blob/dev/COPYING"><img src="PicoLisp.svg" alt="PicoLisp logo" title="PicoLisp"></a>
+<s>014</s><a href="https://github.com/JuliaLang/julia-logo-graphics/blob/master/LICENSE.md"><img src="Julia.svg" alt="Julia logo" title="Julia"></a>
 </body>
 </html>

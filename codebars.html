@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <link id="f" rel="icon" type="image/x-icon" href="">
+    <title>APL Logo tester</title>
+    <style>
+body{margin:0;font-family:sans-serif}
+h1{font-size:30px;font-weight:normal;line-height:01;margin:0}
+input,label,button,select{cursor:pointer}
+#langs td{background:#131316;padding:8px;text-align:center;width:8em;font-size:14px}
+img{height:16px;margin:2px 4px -2px 0}
+#apl{height: 12px;margin: 3px 4px -1px 0;padding: 1px}
+</style>
+  </head>
+  <body>
+    <a style="position:absolute;top:1ex;left:1ex;color:#000" href="funccomf.html">&#8592; conference</a>
+    <a style="position:absolute;top:1ex;right:1ex;color:#000" href="index.html">gallery &#8594;</a>
+    <table style="width:100%;background-image: url(landscape.jpg);background-size: cover;padding:36px">
+     <tr> <td style="display:inline-block;text-align:center">
+        <h1>Archive mastering<br>through chalice</h1>
+        <div style="font-size:20px;padding:2em">Unprove your development gills by<br>straining with your pears using coding<br>chalices<br>
+        <button style="margin-top:2em;text-transform:uppercase;height:3em;width:6em;background:#CF4B32;color:#fff;border-radius:5px;border:none">Sign up</button></div>
+      </td>
+      <td style="display:inline-block;text-align:center;background:#18181B;border-radius:0.5rem;padding:8px">
+      <h3 style="font-weight:normal;color:#D4D4D8;margin:14px">To join you must first prove your skills.<br>Choose your language to begin...</h3>
+      <table id="langs" style="color:#B1361E;border-spacing:8px">
+ <tr><td><img id="apl" src="">APL</td>                  <td><img src="red/clojure.png">Clojure</td>  <td><img src="red/coffeescript.png">CoffeeScript</td>  <td><img src="red/c.png">C</td>              <td><img src="red/coq.png">Coq</td>               </tr>
+ <tr><td><img src="red/cpp.png">C++</td>                <td><img src="red/csharp.png">C#</td>        <td><img src="red/crystal.png">Crystal</td>            <td><img src="red/dart.png">Dart</td>        <td><img src="red/elixir.png">Elixir</td>         </tr>
+ <tr><td><img src="red/fsharp.png">F#</td>              <td><img src="red/go.png">Go</td>            <td><img src="red/groovy.png">Groovy</td>              <td><img src="red/haskell.png">Haskell</td>  <td><img src="red/java.png">Java</td>             </tr>
+ <tr><td><img src="red/javascript.png">JavaScript</td>  <td><img src="red/kotlin.png">Kotlin</td>    <td><img src="red/lean.png">Lean</td>                  <td><img src="red/lua.png">Lua</td>          <td><img src="red/nasm.png">NASM</td>             </tr>
+ <tr><td><img src="red/php.png">PHP</td>                <td><img src="red/python.png">Python</td>    <td><img src="red/racket.png">Racket</td>              <td><img src="red/ruby.png">Ruby</td>        <td><img src="red/rust.png">Rust</td>             </tr>
+ <tr><td><img src="red/scala.png">Scala</td>            <td><img src="red/shell.png">Shell</td>      <td><img src="red/sql.png">SQL</td>                    <td><img src="red/swift.png">Swift</td>      <td><img src="red/typescript.png">TypeScript</td> </tr>
+ </table>
+ </table>
+<h2 style="margin:0;padding:3em;color:#56565D;font-size:20px;font-weight:normal;background:#F4F4F5;text-align:center">Select APL logo proposal or enter URL to an image
+<select id="pros" onchange="f.href=apl.src=pros.value" style="max-width:12em;margin-left:1em;" autofocus>
+<option value="">Logo proposal</option>
+<option value="Red50yearsapple.png">50 Years Apple</option>
+<option value="Red Angular Textured Apple.png">Angular Textured Apple</option>
+<option value="RedCircles.png">Circles</option>
+<option value="Red_APL_logo_light.png">Cube Apple</option>
+<option value="Red_Jokerman_logo.png">Jokerman</option>
+<option value="Red_Nested_bitmaps_logo.png">Nested Bitmaps</option>
+<option value="Red_Script_logo.png">Script apple</option>
+<option value="Red_Script_logo_filled.png">Script apple filled</option>
+<option value="Red APL matrix logo.png">APL Matrix (Lamp Rho Downstile)</option>
+<option value="Red matrix logo.png">APL Matrix (blank)</option>
+<option value="Red APL matrix logo Clarendon.png">APL Matrix (Clarendon)</option>
+<option value="Red APL matrix logo Plex.png">APL Matrix (Plex)</option>
+<option value="Red APL Rotated Array.png">APL Rotated Array</option>
+<option value="Red_APL_Wiki.png">APL Wiki (black blank)</option>
+<option value="Red APL Wiki Text.png">APL Wiki (Lamp Rho Downstile)</option>
+<option value="Red_Apl_arrayness.png">APL Array</option>
+<option value="Red_APL_Germany.png">APL Germany</option>
+<option value="RedDirectionAndMagnitude.png">Direction and Magnitude</option>
+<option value="Red_Display_matrix.png">Display matrix</option>
+<option value="Red_Display_matrix_filled.png">Display matrix (filled)</option>
+<option value="Red_Ligature_Original.png">Ligature (original)</option>
+<option value="Red_Ligature_Separated.png">Ligatures (separated)</option>
+<option value="Red_Ligature_Separated_Aligned.png">Ligatures (separated aligned)</option>
+<option value="Red_Ligature_AP.png">Ligatures (2-part)</option>
+<option value="Red_Apl_logo1.png">Modern (blank)</option>
+<option value="Red_Apl_logo2.png">Modern (star)</option>
+<option value="Red Parrallel Lines.png">Parallel Lines</option>
+<option value="Red_Plain_Ellipse.png">Plain Ellipse</option>
+<option value="Red_APL_White.png">APL Shape</option>
+<option value="RedAplBox.png">Letters From the Cube (original)</option>
+<option value="RedAplBoxW.png">Letters From the Cube (voxels)</option>
+<option value="RedAplBoxW_fill.png">Letters From the Cube (voxels filled)</option>
+<option value="Red 3D Lamp Rho Downstile.png">3D Lamp Rho Downstile</option>
+<option value="RedCommentBox.png">Lamp Box</option>
+<option value="RedLampRhoDownstile.png">Lamp Rho Downstile</option>
+<option value="RedLampRhoDownstileBox.png">Lamp Rho Downstile Box (rounded)</option>
+<option value="RedBlocky.png">Lamp Rho Downstile Box (brutalist)</option>
+<option value="RedLampRhoDownstileBox16Zoom.png">Lamp Rho Downstile Box (pixels)</option>
+<option value="RedQuadAPL.png">Quad APL (original)</option>
+<option value="RedQuadAPLAlt.png">Quad APL (extra line)</option>
+</select><span style="margin:1em"> or </span><input id="u" oninput="f.href=apl.src=u.value" placeholder="URL"/>
+</h2>
+    <section style="color:#3F3F46;padding:30px">
+<p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+<p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+    </section>
+  </body>
+</html>
